@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43772F2C1C2BD36F00360068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43772F2B1C2BD36F00360068 /* AppDelegate.swift */; };
+		43772F2E1C2BD36F00360068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43772F2D1C2BD36F00360068 /* ViewController.swift */; };
+		43772F311C2BD36F00360068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43772F2F1C2BD36F00360068 /* Main.storyboard */; };
+		43772F331C2BD36F00360068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43772F321C2BD36F00360068 /* Assets.xcassets */; };
+		43772F361C2BD36F00360068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43772F341C2BD36F00360068 /* LaunchScreen.storyboard */; };
+		43772F411C2BD36F00360068 /* HanafudaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43772F401C2BD36F00360068 /* HanafudaTests.swift */; };
+		43772F4C1C2BD36F00360068 /* HanafudaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43772F4B1C2BD36F00360068 /* HanafudaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43772F3D1C2BD36F00360068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43772F201C2BD36E00360068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43772F271C2BD36E00360068;
+			remoteInfo = Hanafuda;
+		};
+		43772F481C2BD36F00360068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43772F201C2BD36E00360068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43772F271C2BD36E00360068;
+			remoteInfo = Hanafuda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43772F281C2BD36F00360068 /* Hanafuda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hanafuda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43772F2B1C2BD36F00360068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43772F2D1C2BD36F00360068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43772F301C2BD36F00360068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43772F321C2BD36F00360068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43772F351C2BD36F00360068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43772F371C2BD36F00360068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43772F3C1C2BD36F00360068 /* HanafudaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanafudaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43772F401C2BD36F00360068 /* HanafudaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanafudaTests.swift; sourceTree = "<group>"; };
+		43772F421C2BD36F00360068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43772F471C2BD36F00360068 /* HanafudaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HanafudaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43772F4B1C2BD36F00360068 /* HanafudaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HanafudaUITests.swift; sourceTree = "<group>"; };
+		43772F4D1C2BD36F00360068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43772F251C2BD36E00360068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F391C2BD36F00360068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F441C2BD36F00360068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43772F1F1C2BD36E00360068 = {
+			isa = PBXGroup;
+			children = (
+				43772F2A1C2BD36F00360068 /* Hanafuda */,
+				43772F3F1C2BD36F00360068 /* HanafudaTests */,
+				43772F4A1C2BD36F00360068 /* HanafudaUITests */,
+				43772F291C2BD36F00360068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43772F291C2BD36F00360068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43772F281C2BD36F00360068 /* Hanafuda.app */,
+				43772F3C1C2BD36F00360068 /* HanafudaTests.xctest */,
+				43772F471C2BD36F00360068 /* HanafudaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43772F2A1C2BD36F00360068 /* Hanafuda */ = {
+			isa = PBXGroup;
+			children = (
+				43772F2B1C2BD36F00360068 /* AppDelegate.swift */,
+				43772F2D1C2BD36F00360068 /* ViewController.swift */,
+				43772F2F1C2BD36F00360068 /* Main.storyboard */,
+				43772F321C2BD36F00360068 /* Assets.xcassets */,
+				43772F341C2BD36F00360068 /* LaunchScreen.storyboard */,
+				43772F371C2BD36F00360068 /* Info.plist */,
+			);
+			path = Hanafuda;
+			sourceTree = "<group>";
+		};
+		43772F3F1C2BD36F00360068 /* HanafudaTests */ = {
+			isa = PBXGroup;
+			children = (
+				43772F401C2BD36F00360068 /* HanafudaTests.swift */,
+				43772F421C2BD36F00360068 /* Info.plist */,
+			);
+			path = HanafudaTests;
+			sourceTree = "<group>";
+		};
+		43772F4A1C2BD36F00360068 /* HanafudaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43772F4B1C2BD36F00360068 /* HanafudaUITests.swift */,
+				43772F4D1C2BD36F00360068 /* Info.plist */,
+			);
+			path = HanafudaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43772F271C2BD36E00360068 /* Hanafuda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43772F501C2BD36F00360068 /* Build configuration list for PBXNativeTarget "Hanafuda" */;
+			buildPhases = (
+				43772F241C2BD36E00360068 /* Sources */,
+				43772F251C2BD36E00360068 /* Frameworks */,
+				43772F261C2BD36E00360068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hanafuda;
+			productName = Hanafuda;
+			productReference = 43772F281C2BD36F00360068 /* Hanafuda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43772F3B1C2BD36F00360068 /* HanafudaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43772F531C2BD36F00360068 /* Build configuration list for PBXNativeTarget "HanafudaTests" */;
+			buildPhases = (
+				43772F381C2BD36F00360068 /* Sources */,
+				43772F391C2BD36F00360068 /* Frameworks */,
+				43772F3A1C2BD36F00360068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43772F3E1C2BD36F00360068 /* PBXTargetDependency */,
+			);
+			name = HanafudaTests;
+			productName = HanafudaTests;
+			productReference = 43772F3C1C2BD36F00360068 /* HanafudaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43772F461C2BD36F00360068 /* HanafudaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43772F561C2BD36F00360068 /* Build configuration list for PBXNativeTarget "HanafudaUITests" */;
+			buildPhases = (
+				43772F431C2BD36F00360068 /* Sources */,
+				43772F441C2BD36F00360068 /* Frameworks */,
+				43772F451C2BD36F00360068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43772F491C2BD36F00360068 /* PBXTargetDependency */,
+			);
+			name = HanafudaUITests;
+			productName = HanafudaUITests;
+			productReference = 43772F471C2BD36F00360068 /* HanafudaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43772F201C2BD36E00360068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Mark Chae";
+				TargetAttributes = {
+					43772F271C2BD36E00360068 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					43772F3B1C2BD36F00360068 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 43772F271C2BD36E00360068;
+					};
+					43772F461C2BD36F00360068 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 43772F271C2BD36E00360068;
+					};
+				};
+			};
+			buildConfigurationList = 43772F231C2BD36E00360068 /* Build configuration list for PBXProject "Hanafuda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43772F1F1C2BD36E00360068;
+			productRefGroup = 43772F291C2BD36F00360068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43772F271C2BD36E00360068 /* Hanafuda */,
+				43772F3B1C2BD36F00360068 /* HanafudaTests */,
+				43772F461C2BD36F00360068 /* HanafudaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43772F261C2BD36E00360068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43772F361C2BD36F00360068 /* LaunchScreen.storyboard in Resources */,
+				43772F331C2BD36F00360068 /* Assets.xcassets in Resources */,
+				43772F311C2BD36F00360068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F3A1C2BD36F00360068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F451C2BD36F00360068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43772F241C2BD36E00360068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43772F2E1C2BD36F00360068 /* ViewController.swift in Sources */,
+				43772F2C1C2BD36F00360068 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F381C2BD36F00360068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43772F411C2BD36F00360068 /* HanafudaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43772F431C2BD36F00360068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43772F4C1C2BD36F00360068 /* HanafudaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43772F3E1C2BD36F00360068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43772F271C2BD36E00360068 /* Hanafuda */;
+			targetProxy = 43772F3D1C2BD36F00360068 /* PBXContainerItemProxy */;
+		};
+		43772F491C2BD36F00360068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43772F271C2BD36E00360068 /* Hanafuda */;
+			targetProxy = 43772F481C2BD36F00360068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43772F2F1C2BD36F00360068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43772F301C2BD36F00360068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43772F341C2BD36F00360068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43772F351C2BD36F00360068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43772F4E1C2BD36F00360068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43772F4F1C2BD36F00360068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43772F511C2BD36F00360068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hanafuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.Hanafuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43772F521C2BD36F00360068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hanafuda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.Hanafuda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43772F541C2BD36F00360068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HanafudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.HanafudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanafuda.app/Hanafuda";
+			};
+			name = Debug;
+		};
+		43772F551C2BD36F00360068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HanafudaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.HanafudaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hanafuda.app/Hanafuda";
+			};
+			name = Release;
+		};
+		43772F571C2BD36F00360068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HanafudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.HanafudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hanafuda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		43772F581C2BD36F00360068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HanafudaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mchae.HanafudaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hanafuda;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43772F231C2BD36E00360068 /* Build configuration list for PBXProject "Hanafuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43772F4E1C2BD36F00360068 /* Debug */,
+				43772F4F1C2BD36F00360068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43772F501C2BD36F00360068 /* Build configuration list for PBXNativeTarget "Hanafuda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43772F511C2BD36F00360068 /* Debug */,
+				43772F521C2BD36F00360068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43772F531C2BD36F00360068 /* Build configuration list for PBXNativeTarget "HanafudaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43772F541C2BD36F00360068 /* Debug */,
+				43772F551C2BD36F00360068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43772F561C2BD36F00360068 /* Build configuration list for PBXNativeTarget "HanafudaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43772F571C2BD36F00360068 /* Debug */,
+				43772F581C2BD36F00360068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43772F201C2BD36E00360068 /* Project object */;
+}
